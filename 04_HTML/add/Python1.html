@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <H1 align="center"> HOW-TO: Программа на Python, Часть 1</H1>
+                        <Ul>                
+                            <LI><a href="Python1.html"><em>Программа на Python — часть 1</em></a></LI>
+                            <LI><a href="Python2.html"><em>Программа на Python — часть 2</em></a></LI>
+                            <LI><a href="Python3.html"><em>Программа на Python — часть 3</em></a></LI>
+                        </Ul>
+                    <H2 id="01">Содержание</H2>
+                    <H3>HOW-TO: Программа на Python, Часть 1</H3>
+                </td>
+                <td>
+                    <P><IMG src="Icon-Python.png"></P>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <Ul>
+                        <LI><a href="#02">Наша первая программа</a></LI>
+                        <LI><a href="#03">Пример цикла For</a></LI>
+                    </Ul>
+                </td>            
+            </tr>        
+        </table> 
+        <P>Из множества существующих языков программирования Python — один из самых лёгких 
+        в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+        Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+        обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+        создание консольных приложений, а в следующей — программирование графических
+        интерфейсов (<ins>GUI</ins>). Давайте создадим простую программу прямо сейчас.
+        </P>
+        <H2 id="02"> <strong>Наша первая программа</strong></H2>
+            <a href="#01">К содержанию</a>
+            <P>Наберём код в текстовом редакторе (например, в <strong>gedit</strong>). Потом мы разберёмся, что делает
+                каждая строка и пойдём дальше.</P>
+            <P>Введите эти 4 строки:</P>
+            <P><code>#!/usr/bin/env python<br>
+                print 'Hello. I am a python program.'<br>
+                name = raw_input("What is your name?")<br>
+                print "Hello there, " + name + "!"</code></P>
+            <P>Это всё. Сохраните файл как <strong>hello.py</strong> в любом месте. Я предлагаю сохранить его в папке
+            <strong>python_examples</strong> в домашнем каталоге. Этот пример показывает, как просто написать
+                программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+                этого введите в терминале</P>
+            <P><code><strong><ins>chmod +x hello.py</ins></strong></code></P>
+            <P>в папке, в которой вы сохранили программу. Теперь запустите её.</P>
+            <P><code>greg@earth:~/python_examples$ ./hello.py<br>
+                Hello. I am a python program.<br>
+                What is your name? Ferd Burphel<br>
+                Hello there, Ferd Burphel!<br>
+                greg@earth:~/python_examples$</code></P>
+            <P>Вот и все.</P>
+        <H2 id="03"> <strong>Пример цикла For</strong></H2>
+            <a href="#01">К содержанию</a>
+            <P>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+                редактор и наберите следующую программу:</P>
+            <P><code>#!/usr/bin/env python<br>
+                for cntr in range(0,10):<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;print cntr</code></P>
+            <p><ins>Не забудьте поставить символ табуляции перед строкой «print cntr»</ins>. Это важно. В
+                Python для указания на блоки кода используются не круглые «<strong>(</strong>» и фигурные
+                «<strong>{</strong>» скобки как в других языках программирования, а отступы.</p>
+        <table width="100%">
+            <tr>
+                <td align="left">
+                    <a href="#">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22px" 
+                        height="22px" viewBox="0 0 22 22" enable-background="new 0 0 22 22" 
+                        xml:space="preserve">  
+                            <image id="image0" width="22" height="22" x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAAN
+                            SUhEUgAAABYAAAAWCAMAAADzapwJAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                            AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACtVBMVEUAAAAyadEyadAyac4y
+                            aM0yaMwyaMsyZ8k3ZbsyadEyadEyadAyatAya9Uyac4yaMsyaMszZsdlZWUyadEyadIybNc+d+FG
+                            etw0a9MyZ8o3Zr5lZWUyadEyadIyaMs5Zrk+d+BIe9oyaMo4ZbhlZWUyadAyZsdlZWVlZWUyac0z
+                            bNU1bNI4ZbhlZWUyaMwyaMw/d91Getk0Z8RPYoUyaMwyaMwyZ8lBY6MyaMwyac4yaMxBZqkyatNC
+                            ZqlDZqcyZ8tEZaMyZshGY5g3c+I2ZsBWYnk0bNM1a9E+Y6llZWUyaMozZcJlZWVlZWU1ZsAzaMtO
+                            ftY0Z8dGY5llZWU5ZbY0aMo0Z8ZJY5VlZWU5ZbcyZsc9cM9XhNc9cM80acpBcs00acpWi+9tnveU
+                            suqdt+d6pfNaj/Eyb+BikemsxvbZ4/Xv8/ry9fvx9fvg6Pe+0PJ1nuo4cdmGrO/S3vXk6/jl7Pma
+                            tefa5Pagu+wyb96Dqe/R3fTX4vbn7fn////x9PvX4fXX4vXV4PWbt+w8c9hhkOe7zvDI1/LJ1/Lf
+                            6Pf8/f7D0/F0neiTs+24zO65zO/W4fXp7/q2yu6btuVNheyju+mqwevM2vP7/P7+/v7j6/iwxeyn
+                            vuqLrOdelPdQi/g5evFhku3G1vE7gP85fvxrl+iKquW4y+/6+/7z9/5+q/86f/1dj+1zm+fC0/Sd
+                            wP88gf87f/1GhPZSjPV2o/fx9f7o8P9gmP89gv88f/w3evRDhf1lm/3n7/72+f9mnP9IiP9Fh/9A
+                            hP9ChP82efVIiPxJiPxwovzr8v7e6v9el/9BhP1GhvxNhetekvFfkvF9pvPt8/3x9f1dkfJAddZt
+                            mOd0nOiSse3t8vxznOh8oOKCpeaZterv8/u0yfCCpuZKetJzmeGMrOeNreh6nNuOreWRr+hdsnD0
+                            AAAAYXRSTlMABRozPT00HAY5j7/d6N7Bkj4DI5Pt/f30uT0EH7bWTf3+2TwCmKINATnv8E8HBY/9
+                            /aEXGr/MNTPd5VPuYGLmW9BD/aoq7vJlGJmwKwsqvf3KVBQrv8pRHTCh8P3y5e7m0/KWGgAAAAFi
+                            S0dEfj+4QXMAAAAJcEhZcwAACw0AAAsNAe0HwCwAAAAHdElNRQflBgQAHS6pxSO1AAABsElEQVQY
+                            02NggABGJmYWVjZ2DgYUwMnFzcPLy8cvICiEEBQWERVLTEpOSU0Tl5CUkoaKysimZ2RmZefk5Obl
+                            FxTKyUPEhWUViopLSsvKykpLS8srFJWUVUDCqpVV1TU1ZbV19WUNNY1NzS1q6hoMDJparW3tHWWd
+                            XXV17e0d7e3dPdo6ugx6+ga9ff1lE+rq6ib2g8CkyYZGxgwmplOmTiubPqNu5qzZ06ZNmzN33vwF
+                            ZuYMFpYLy8oWAdXOKIOAxYuXWFkzsPIuXbZ8RR0crFy1eLWNLVB4zdp1dUhg/YaNNnYMbHybNm/Z
+                            ihDdtn3HTnsHBnb+Xbt379lbV7dv/wEQOHjo8BFHJwYOAeejx44dP1FXd/LUhg2nz5w5etTZxZWB
+                            QdDt7Lnz5y9crKu7dPkykHXurLuHJwODkNeVq9d6rl2/UVd37WZPz7WrV7x9fIFh4ucfcOv27dt3
+                            7t67ff/+7VsBgUHBoLBSCQl98PDRYzB49PBBWHgEJGSFIqOiY548ffbs6ZOYWO+gCF1oPKio6xiZ
+                            xcXHJzi6ePgES8NjTUPX2Nza1s7BydXTFxwHAOXgvwkIz+CNAAAAJXRFWHRkYXRlOmNyZWF0ZQAy
+                            MDIxLTA2LTA0VDAwOjI5OjQ2KzAzOjAwAw9DgwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wNi0w
+                            NFQwMDoyOTo0NiswMzowMHJS+z8AAAAASUVORK5CYII=" />
+                        </svg>
+                    </a>
+                </td>
+                <td align="center">
+                    <a href="#"><IMG src="home.svg" alt="домой" title="переход к основному содержанию страницы"></a>
+                </td>
+                <td align="right">
+                    <a href="Python2.html"><IMG src="next.svg" alt="следующая" title="переход на следующую страницу"></a>
+                </td>
+            </tr>
+        </table>          
+    </body>
+</html>
