@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Document</title>
+    <style>        
+        .navigation{
+            background-color: rgb(200, 200, 200);
+            width: 15em;
+            float: left;
+            }                      
+        .cont{
+            background-color: rgb(225, 225, 225);                                                                            
+        }
+        .content{
+            overflow: hidden;            
+            background-color: rgb(150, 150, 150);
+            margin-bottom: .2em;            
+        }
+        .clear{
+            clear: both;            
+        }        
+        .footer{
+            background-color: rgb(200, 200, 200);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <h2>Блок навигации</h2>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом, достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+        </ul>
+    </div>             
+    <div class="cont">
+        <div class="content">
+            <h2>Статья 1</h2>
+            <p>
+                Размер блока:<br>
+                Занимает всю доступную ширину<br>
+                Должен присуствовать цвет фона<br>
+                Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи<br> 
+                свойства margin-bottom
+            </p>
+        </div>
+        <div class="content">
+            <h2>Статья 2</h2>
+            <p>
+                Размер блока:<br>
+                Занимает всю доступную ширину<br>
+                Должен присутствовать цвет фона<br>
+                Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи<br> 
+                свойства margin-bottom Картинка вставлена при помощи тега, плавание<br>
+                организовано по правому краю внтури данной статьи для этой картинки.<br>
+                <img src="icon_mail.png" align="right">
+            </p>                                               
+        </div>
+        <div class="clear">
+        </div>            
+    </div>
+    <div class="footer">
+        Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.         
+    </div>   
+    
+    <div class="footer">
+        <p>
+        Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.
+        <img src="icon_mail.png" align="right"> 
+        </p>        
+    </div>   
+
+</body>
+</html>

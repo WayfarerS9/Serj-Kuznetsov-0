@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&display=swap" rel="stylesheet">   
+    <style>
+        .high{
+            width: 350px;
+            list-style-type: upper-roman;
+            font-family: 'Rokkitt', serif;
+            font-weight:bold;                        
+        }
+        .low{
+            list-style-type: lower-roman;
+            font-weight: initial;
+        }
+        div{
+            font-family: 'Rokkitt', serif;
+            background-color: black;
+            color: green;
+            width: 400px;
+            max-height: 4;
+        }       
+    </style>   
+</head>
+<body>
+    <ul class="high">
+        <li>
+            Контейнер с кодом
+            <ul class="low">
+                <li>
+                    Цвет фона: черный
+                </li>
+                <li>
+                    Цвет текста: зелёный
+                </li>
+                <li>
+                    Ширина: 400px
+                </li>
+                <li>
+                    Максимальная высота контейнера: 4-е строки
+                </li>
+                <li>
+                    Переполнение: автоматическое
+                </li>                
+            </ul>
+        </li>
+        <li>
+            Список        
+            <ul class="low">
+                <li>
+                    Ширина: 350px                    
+                </li>
+                <li>
+                    Тип списка: римские нцифры
+                </li>
+                <li>
+                    Тип вложенного списка: римские нижний регистр цифры                    
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div>
+        <pre>
+#!/usr/bin/env python
+print 'Hello. I am a python program.'
+name = raw_input ("What is your name?")
+print "Hello there, " + name + "!"</pre>
+    </div>    
+</body>
+</html>
